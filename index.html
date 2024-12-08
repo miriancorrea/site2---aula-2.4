@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirian</title>
+</head>
+<body>
+    <header>
+        <h1>Mirian</h1>
+
+        <nav> <!-- Seção de navegação do site-->
+            <ul><!-- Lista não ordenada para links do nosso menu. -->
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://google.com.br" target="_blank">Google</a></li> <!--Aqui estou referenciando a pagina da internet onde ele vai me direcionar para a pag do google-->
+            </ul>
+        </nav>
+    </header> 
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+
+        <img src="https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.jpg" 
+        alt="Imagem de foto de perfil" title="Imagem de perfil de joão">
+
+        <article>
+            <p>Oiee! Eu sou a Mirian, estou aprendendo programação para uma futura carreira.</p>
+        </article>
+
+        <aside>
+            <h3>Habilidades</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </aside>
+    </section>
+
+    <section id="projeto">
+
+        <h2>Projeto</h2>
+
+        <article>
+            <h3>Portifólio</h3>
+
+            <p>Este foi o primerio site que desenvolvi estudando front-end</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Direitos reservados a Mirian</p>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <p>Tem um projeto em mente? Entre em contato.</p>
+            <form action ="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto" required>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro. </label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
